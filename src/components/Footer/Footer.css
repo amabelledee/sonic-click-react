@@ -1,0 +1,17 @@
+.footer {
+    background-color: #131eb2;
+    -webkit-box-shadow: 0 -14px 28px rgb(3, 7, 84),
+      0 10px 10px rgb(3, 7, 84);
+    box-shadow: 0 -14px 28px rgb(3, 7, 84), 0 10px 10px rgb(3, 7, 84);
+    color: #dddfff;
+    font-size: 18px;
+    height: 50px;
+    padding: 10px 0;
+  }
+  a:hover {
+    color: #cecedb;
+  }
+  a:link {
+    color: #dddfff;
+    text-decoration: underline;
+  }
