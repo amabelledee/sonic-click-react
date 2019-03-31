@@ -4,7 +4,7 @@ import "./Navbar.css";
 const Navbar = props => (
   <div className="navbar ">
     <div>Sonic Game</div>
-    <div className={props.clickMsgColor}>{props.navMessage}</div>
+    <div className={props.navMsgColor}>{props.navMessage}</div>
     <div>
       Score: {props.score} <span className="pipe">|</span> High Score:{" "}
       {props.highScore}
